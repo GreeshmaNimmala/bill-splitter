@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <p>
+            <label for="new-person">Add People</label>
+        <input id="new-person" type="text"><button>Add</button>
+        </p>
+        <p>
+            <label for="new-bill">Add Bill</label>
+            
+            
+            <form name="addBill"></form>
+                    <tr>
+                    <td><label for="items">List Items</label></td>
+                    <td><input id="items" type="text"></td>
+                </tr>
+                <tr>
+                        <td><label for="listAmount">Amount</label></td>
+                        <td><input type="text" id="listAmount"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="listFriends">Choose Friends</label></td>
+                            <td><select required id="listFriends"></select></td>
+                            </tr>
+                        
+                </table>
+            <button id="billBtn">Add</button>
+            
+           
+        </p>
+        <h3>Friends</h3>
+        <ul id="friends">
+            <li>
+                
+                <label>Gree</label>
+                <input type="text">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+        </ul>
+        <h3>Bills</h3>
+        <ul id="bills">
+            <li>
+                    
+                <label>Costco</label>
+                <input type="text">
+                <button class="show">Show</button>
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+        </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+1. text not changing for edit button and unable to save it
+2.ShowDetails button is hiding
+
+
+
+var editBill=function(){
+    var listItem=this.parentNode;
+    var 
+
+
+
+
+}
